@@ -9,7 +9,7 @@ const PostCard = ({ post }) => {
         <img
           src={post.featuredImage.url}
           alt={post.title}
-          className="object-center absolute h-80 w-full object-cover shadow-lg rounded-t-lg lg:rounded-lg "
+          className=" absolute h-80 w-full object-cover object-center shadow-lg rounded-t-lg lg:rounded-lg "
         />
       </div>
       <h1 className="transition duration-700 text-center mb-8 cursor-pointer hover:text-pink-600 text-3xl font-semibold">
@@ -47,7 +47,7 @@ const PostCard = ({ post }) => {
           <span>{moment(post.createdAt).format("MMM DD, YYYY")}</span>
         </div>
       </div>
-      <p className="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8">
+      <p className="text-center text-lg text-gray-700 font-normal px-6 lg:px-20 mb-8">
         {post.excerpt}
       </p>
       <div className="text-center">
