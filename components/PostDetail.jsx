@@ -68,7 +68,7 @@ const PostDetail = ({ post }) => {
           className="h-full w-full object-top rounded-t-lg"
         />
       </div>
-      <div className="px-4">
+      <div className="px-7">
         <div className="flex items-center mb-8 w-full">
           <div className=" flex items-center  mb-4 lg:mb-0 w-full lg:w-auto mr-8">
             <img
