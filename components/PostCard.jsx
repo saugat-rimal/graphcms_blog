@@ -13,20 +13,20 @@ const PostCard = ({ post }) => {
         />
       </div>
       <h1 className="transition duration-700 text-center mb-8 cursor-pointer hover:text-pink-600 text-3xl font-semibold">
-        <Link href={`/posts/${post.slug}`}>{post.title}</Link>
+        <Link href={`/post/${post.slug}`}>{post.title}</Link>
       </h1>
 
       <div className="block lg:flex text-center items-center justify-center mb-8 w-full">
         <div className=" flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8">
           <img
-            alt={post.author.name}
+            alt={post.author?.name}
             height="30px"
             width="30px"
             className="rounded-full align-middle"
-            src={post.author.photo.url}
+            src={post.author?.photo?.url}
           />
           <p className="inline align-middle text-gray-700 ml-2 text-lg">
-            {post.author.name}
+            {post.author?.name}
           </p>
         </div>
         <div className="font-medium text-gray-700">
