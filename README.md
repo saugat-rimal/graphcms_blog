@@ -1,6 +1,9 @@
-# Next.js + Tailwind CSS Example
+# Next.js + Tailwind CSS with Graphql
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Fully responsive #HeadlessCMS Blog App which contain featured and recent posts, categories. full markdown articles, author information, comments, and much more.
+
+Built with the technologies such as React JS, #NextJS, Tailwind CSS, #GraphQL, and #GraphCMS. 
+
 
 ## Deploy your own
 
